@@ -2521,7 +2521,7 @@ packages:
     dependencies:
       '@emnapi/core': 1.1.1
       '@emnapi/runtime': 1.1.1
-      '@tybys/wasm-util': 0.8.1
+      '@tybys/wasm-util': 0.8.3
     dev: false
     optional: true
 
@@ -2916,8 +2916,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /@tybys/wasm-util@0.8.1:
-    resolution: {integrity: sha512-GSsTwyBl4pIzsxAY5wroZdyQKyhXk0d8PCRZtrSZ2WEB1cBdrp2EgGBwHOGCZtIIPun/DL3+AykCv+J6fyRH4Q==}
+  /@tybys/wasm-util@0.8.3:
+    resolution: {integrity: sha512-Z96T/L6dUFFxgFJ+pQtkPpne9q7i6kIPYCFnQBHSgSPV9idTsKfIhCss0h5iM9irweZCatkrdeP8yi5uM1eX6Q==}
     requiresBuild: true
     dependencies:
       tslib: 2.6.2
