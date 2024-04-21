@@ -2521,7 +2521,7 @@ packages:
     dependencies:
       '@emnapi/core': 1.1.1
       '@emnapi/runtime': 1.1.1
-      '@tybys/wasm-util': 0.8.1
+      '@tybys/wasm-util': 0.8.3
     dev: false
     optional: true
 
@@ -2916,8 +2916,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /@tybys/wasm-util@0.8.1:
-    resolution: {integrity: sha512-GSsTwyBl4pIzsxAY5wroZdyQKyhXk0d8PCRZtrSZ2WEB1cBdrp2EgGBwHOGCZtIIPun/DL3+AykCv+J6fyRH4Q==}
+  /@tybys/wasm-util@0.8.3:
+    resolution: {integrity: sha512-Z96T/L6dUFFxgFJ+pQtkPpne9q7i6kIPYCFnQBHSgSPV9idTsKfIhCss0h5iM9irweZCatkrdeP8yi5uM1eX6Q==}
     requiresBuild: true
     dependencies:
       tslib: 2.6.2
@@ -5636,8 +5636,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: false
 
-  /ipaddr.js@2.1.0:
-    resolution: {integrity: sha512-LlbxQ7xKzfBusov6UMi4MFpEg0m+mAm9xyNGEduwXMEDuf4WfzB/RZwMVYEd7IKGvh4IUkEXYxtAVu9T3OelJQ==}
+  /ipaddr.js@2.2.0:
+    resolution: {integrity: sha512-Ag3wB2o37wslZS19hZqorUnrnzSkpOVy+IiiDEiTqNubEYpYuHWIf6K4psgN2ZWKExS4xhVCrRVfb/wfW8fWJA==}
     engines: {node: '>= 10'}
     dev: false
 
@@ -9030,7 +9030,7 @@ packages:
       graceful-fs: 4.2.11
       html-entities: 2.5.2
       http-proxy-middleware: 2.0.6(@types/express@4.17.21)(debug@4.3.4)
-      ipaddr.js: 2.1.0
+      ipaddr.js: 2.2.0
       launch-editor: 2.6.1
       open: 8.4.2
       p-retry: 4.6.2
