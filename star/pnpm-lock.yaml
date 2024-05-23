@@ -19,7 +19,7 @@ dependencies:
     version: 0.33.4
   starlight-blog:
     specifier: ^0.8.2
-    version: 0.8.2(@astrojs/starlight@0.23.1)(astro@4.8.6)
+    version: 0.8.3(@astrojs/starlight@0.23.1)(astro@4.8.6)
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -479,8 +479,8 @@ packages:
     resolution: {integrity: sha512-fXVXEyFA5Yv3M3n8sUGT7+fvecGrZP4k6FnWWMSZVQf69kAq0LLpaBQLGcPR30m3zMmKYhECP4k/ZkzvhEW5kw==}
     dev: false
 
-  /@emnapi/runtime@1.1.1:
-    resolution: {integrity: sha512-3bfqkzuR1KLx57nZfjr2NLnFOobvyS0aTszaEGCGqmYMVDRaGvgIZbjGSV/MHSSmLgQ/b9JFHQ5xm5WRZYd+XQ==}
+  /@emnapi/runtime@1.2.0:
+    resolution: {integrity: sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ==}
     requiresBuild: true
     dependencies:
       tslib: 2.6.2
@@ -1100,7 +1100,7 @@ packages:
     cpu: [wasm32]
     requiresBuild: true
     dependencies:
-      '@emnapi/runtime': 1.1.1
+      '@emnapi/runtime': 1.2.0
     dev: false
     optional: true
 
@@ -4211,8 +4211,8 @@ packages:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: false
 
-  /starlight-blog@0.8.2(@astrojs/starlight@0.23.1)(astro@4.8.6):
-    resolution: {integrity: sha512-oIcc+gMOOR+aN8TQzZQDpstkuIPn1Lm3bG4NaQ8ntWvLueMns/rGXt8EC2/cGnEybYNMhV8/dciHk+2VB56WwQ==}
+  /starlight-blog@0.8.3(@astrojs/starlight@0.23.1)(astro@4.8.6):
+    resolution: {integrity: sha512-8Htu5KU5Z257ilsTxo1ozcU9pEjxui7TlCa6TgLxENhls98yIXIEunrseS9XYBiivxtL6Ly7BKx5qYGtXmyrEQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.22.1'
