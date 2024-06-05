@@ -10,7 +10,7 @@ dependencies:
     version: 0.7.0(typescript@5.4.5)
   '@astrojs/starlight':
     specifier: ^0.23.2
-    version: 0.23.2(astro@4.9.2)
+    version: 0.23.4(astro@4.9.2)
   astro:
     specifier: ^4.9.2
     version: 4.9.2(typescript@5.4.5)
@@ -19,7 +19,7 @@ dependencies:
     version: 0.33.4
   starlight-blog:
     specifier: ^0.8.3
-    version: 0.8.3(@astrojs/starlight@0.23.2)(astro@4.9.2)
+    version: 0.8.3(@astrojs/starlight@0.23.4)(astro@4.9.2)
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -164,8 +164,8 @@ packages:
       zod: 3.23.8
     dev: false
 
-  /@astrojs/starlight@0.23.2(astro@4.9.2):
-    resolution: {integrity: sha512-j8odYR744qCilip9s0UXNzDQ66uu1klD24zRI5Aqzxoj01eVnAsEgDPC8rU/gDTvydKWhF5diBRC1QVDN5JIYw==}
+  /@astrojs/starlight@0.23.4(astro@4.9.2):
+    resolution: {integrity: sha512-EHsjFfnvv+m2bHGJCwFoCLrbW1kfCPnHaPIbqCTMW+NWU8xO/bwtz6MgK6ant5wqjf0DqUkwHY6Esn72kmc9jQ==}
     peerDependencies:
       astro: ^4.8.6
     dependencies:
@@ -480,7 +480,7 @@ packages:
     resolution: {integrity: sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ==}
     requiresBuild: true
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.6.3
     dev: false
     optional: true
 
@@ -4208,7 +4208,7 @@ packages:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: false
 
-  /starlight-blog@0.8.3(@astrojs/starlight@0.23.2)(astro@4.9.2):
+  /starlight-blog@0.8.3(@astrojs/starlight@0.23.4)(astro@4.9.2):
     resolution: {integrity: sha512-8Htu5KU5Z257ilsTxo1ozcU9pEjxui7TlCa6TgLxENhls98yIXIEunrseS9XYBiivxtL6Ly7BKx5qYGtXmyrEQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -4216,7 +4216,7 @@ packages:
       astro: '>=4.2.7'
     dependencies:
       '@astrojs/rss': 4.0.5
-      '@astrojs/starlight': 0.23.2(astro@4.9.2)
+      '@astrojs/starlight': 0.23.4(astro@4.9.2)
       astro: 4.9.2(typescript@5.4.5)
       astro-remote: 0.3.2
       github-slugger: 2.0.0
@@ -4358,8 +4358,8 @@ packages:
       typescript: 5.4.5
     dev: false
 
-  /tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+  /tslib@2.6.3:
+    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
     requiresBuild: true
     dev: false
     optional: true
